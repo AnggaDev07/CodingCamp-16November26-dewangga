@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do Life Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+    <!-- Storage unavailability banner (hidden by default) -->
+    <div id="storage-banner" role="alert" hidden>
+      ⚠️ Storage unavailable — data will not be saved this session.
+    </div>
+
+    <header id="page-header">
+      <h1>✨ Life Dashboard</h1>
+      <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </header>
+
+    <!-- Clock / Date / Greeting — outside cards, centered at top -->
+    <div id="hero-section">
+      <p id="clock">00:00:00</p>
+      <p id="date-display"></p>
+      <p id="greeting-text"></p>
+      <form id="name-form">
+        <span class="input-icon">👤</span>
+        <input id="name-input" maxlength="50" type="text" placeholder="Enter your name…" />
+        <button type="submit">Save</button>
+        <span id="name-error" role="alert"></span>
+      </form>
+    </div>
+
+    <main id="dashboard-grid">
+
+      <!-- Focus Timer Widget -->
+      <section id="timer-widget">
+        <h2 class="card-title"><span class="card-icon">⏱️</span> Focus Timer</h2>
+        <p id="timer-display">25:00</p>
+        <div id="timer-controls">
+          <button id="btn-start">▶ Start</button>
+          <button id="btn-stop">⏸ Stop</button>
+          <button id="btn-reset">↺ Reset</button>
+        </div>
+        <form id="duration-form">
+          <input id="duration-input" type="number" min="1" max="999" placeholder="⏳ Set minutes…" />
+          <button type="submit">Set</button>
+          <span id="duration-error" role="alert"></span>
+        </form>
+      </section>
+
+      <!-- To-Do Widget -->
+      <section id="todo-widget">
+        <h2 class="card-title"><span class="card-icon">📝</span> To-do List</h2>
+        <form id="add-task-form">
+          <input id="task-input" type="text" maxlength="200" placeholder="Add a new task…" />
+          <button type="submit">➕ Add</button>
+          <span id="task-error" role="alert"></span>
+        </form>
+        <div id="sort-controls">
+          <button data-sort="name">🔤 By Name</button>
+          <button data-sort="status">✅ By Status</button>
+        </div>
+        <ul id="task-list"></ul>
+      </section>
+
+      <!-- Quick Links Widget -->
+      <section id="links-widget">
+        <h2 class="card-title"><span class="card-icon">🔗</span> Quick Links</h2>
+        <div id="links-list"></div>
+        <form id="add-link-form">
+          <input id="link-label" type="text" maxlength="50" placeholder="🏷️ Label" />
+          <input id="link-url" type="url" placeholder="🌐 https://…" />
+          <button type="submit">➕ Add Link</button>
+          <span id="link-error" role="alert"></span>
+        </form>
+      </section>
+
+    </main>
+  </body>
+</html>

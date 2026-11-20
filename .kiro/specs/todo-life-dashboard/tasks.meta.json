@@ -1,0 +1,287 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create `index.html` with the full page structure": [
+      {
+        "executionId": "05cfa8ca-0f45-455a-a16f-b39de9f6e4dc",
+        "chatSessionId": "sess_b07ab63b-e26d-4eb7-9861-b01fca3a650f",
+        "timestamp": 1795185860628
+      },
+      {
+        "executionId": "05cfa8ca-0f45-455a-a16f-b39de9f6e4dc",
+        "chatSessionId": "sess_b07ab63b-e26d-4eb7-9861-b01fca3a650f",
+        "timestamp": 1795185899277
+      }
+    ],
+    "1. Create the HTML scaffold": [
+      {
+        "executionId": "05cfa8ca-0f45-455a-a16f-b39de9f6e4dc",
+        "chatSessionId": "sess_b07ab63b-e26d-4eb7-9861-b01fca3a650f",
+        "timestamp": 1795185899366
+      }
+    ],
+    "2.1 Implement CSS custom properties and base styles in `css/style.css`": [
+      {
+        "executionId": "39daf1ad-336f-4614-bd13-bd7e2b8338e8",
+        "chatSessionId": "sess_72d82771-7e8f-4e1e-a50e-a8770286f58b",
+        "timestamp": 1795185948130
+      },
+      {
+        "executionId": "39daf1ad-336f-4614-bd13-bd7e2b8338e8",
+        "chatSessionId": "sess_72d82771-7e8f-4e1e-a50e-a8770286f58b",
+        "timestamp": 1795186043007
+      }
+    ],
+    "2.2 Implement responsive grid layout and widget card styles": [
+      {
+        "executionId": "fc8eb61d-3281-4931-a2df-9edfea7c018e",
+        "chatSessionId": "sess_f87c49a7-33c4-4ec4-93c6-eec9cb5356fb",
+        "timestamp": 1795186059746
+      },
+      {
+        "executionId": "fc8eb61d-3281-4931-a2df-9edfea7c018e",
+        "chatSessionId": "sess_f87c49a7-33c4-4ec4-93c6-eec9cb5356fb",
+        "timestamp": 1795186111812
+      }
+    ],
+    "2.3 Style individual widget components": [
+      {
+        "executionId": "523fc5ce-5bd1-4d15-98cd-b6f05318f0bc",
+        "chatSessionId": "sess_f61c1ca2-32a0-4183-97f6-a230df5338ca",
+        "timestamp": 1795186127264
+      },
+      {
+        "executionId": "523fc5ce-5bd1-4d15-98cd-b6f05318f0bc",
+        "chatSessionId": "sess_f61c1ca2-32a0-4183-97f6-a230df5338ca",
+        "timestamp": 1795186200894
+      }
+    ],
+    "2. Write the CSS stylesheet": [
+      {
+        "executionId": "523fc5ce-5bd1-4d15-98cd-b6f05318f0bc",
+        "chatSessionId": "sess_f61c1ca2-32a0-4183-97f6-a230df5338ca",
+        "timestamp": 1795186201024
+      }
+    ],
+    "3.1 Write the `storage_*` helper layer with error handling": [
+      {
+        "executionId": "22d7cd57-977f-4156-b25e-d656443219d7",
+        "chatSessionId": "sess_a2558c53-632c-438d-be29-23fd24fafa19",
+        "timestamp": 1795186254445
+      },
+      {
+        "executionId": "22d7cd57-977f-4156-b25e-d656443219d7",
+        "chatSessionId": "sess_a2558c53-632c-438d-be29-23fd24fafa19",
+        "timestamp": 1795186306927
+      }
+    ],
+    "3. Implement the storage helper in `js/app.js`": [
+      {
+        "executionId": "22d7cd57-977f-4156-b25e-d656443219d7",
+        "chatSessionId": "sess_a2558c53-632c-438d-be29-23fd24fafa19",
+        "timestamp": 1795186307009
+      }
+    ],
+    "4.1 Write `theme_load()` and `theme_toggle()` in `js/app.js`": [
+      {
+        "executionId": "b56405fa-9286-4eb4-a107-f69e473d63b3",
+        "chatSessionId": "sess_3bd874c7-89d1-41ab-9f8f-3fa324bfaf18",
+        "timestamp": 1795186335650
+      },
+      {
+        "executionId": "b56405fa-9286-4eb4-a107-f69e473d63b3",
+        "chatSessionId": "sess_3bd874c7-89d1-41ab-9f8f-3fa324bfaf18",
+        "timestamp": 1795186378359
+      }
+    ],
+    "4. Implement the theme module": [
+      {
+        "executionId": "b56405fa-9286-4eb4-a107-f69e473d63b3",
+        "chatSessionId": "sess_3bd874c7-89d1-41ab-9f8f-3fa324bfaf18",
+        "timestamp": 1795186378446
+      }
+    ],
+    "5.1 Write pure greeting helper functions": [
+      {
+        "executionId": "198038b2-6de3-4ceb-9e9b-75ba0d40524e",
+        "chatSessionId": "sess_701e6edc-1ed8-4f70-bb10-00f1b68ca32a",
+        "timestamp": 1795186411100
+      },
+      {
+        "executionId": "198038b2-6de3-4ceb-9e9b-75ba0d40524e",
+        "chatSessionId": "sess_701e6edc-1ed8-4f70-bb10-00f1b68ca32a",
+        "timestamp": 1795186455365
+      }
+    ],
+    "5.3 Write `greeting_saveName()` and `initGreeting()` / `startClock()`": [
+      {
+        "executionId": "a556892a-c449-431b-983c-4855a0763dd1",
+        "chatSessionId": "sess_690c4062-4f03-4f59-a576-7be64aebdb18",
+        "timestamp": 1795186468564
+      },
+      {
+        "executionId": "a556892a-c449-431b-983c-4855a0763dd1",
+        "chatSessionId": "sess_690c4062-4f03-4f59-a576-7be64aebdb18",
+        "timestamp": 1795186517451
+      },
+      {
+        "executionId": "67231d5e-231c-4d6a-94fc-80d9ea474d54",
+        "chatSessionId": "sess_2a8a1dc2-ea38-44fa-8431-a286cbaee4d3",
+        "timestamp": 1795186816350
+      },
+      {
+        "executionId": "67231d5e-231c-4d6a-94fc-80d9ea474d54",
+        "chatSessionId": "sess_2a8a1dc2-ea38-44fa-8431-a286cbaee4d3",
+        "timestamp": 1795186863141
+      }
+    ],
+    "5. Implement the greeting module": [
+      {
+        "executionId": "a556892a-c449-431b-983c-4855a0763dd1",
+        "chatSessionId": "sess_690c4062-4f03-4f59-a576-7be64aebdb18",
+        "timestamp": 1795186517537
+      }
+    ],
+    "7.1 Write timer helper and state variables": [
+      {
+        "executionId": "55cb53ca-5fa9-4fdd-a911-e17b40943024",
+        "chatSessionId": "sess_e3b890e2-f276-4b3c-a60d-7eb7455ee1ab",
+        "timestamp": 1795186891275
+      },
+      {
+        "executionId": "55cb53ca-5fa9-4fdd-a911-e17b40943024",
+        "chatSessionId": "sess_e3b890e2-f276-4b3c-a60d-7eb7455ee1ab",
+        "timestamp": 1795186959801
+      }
+    ],
+    "7.3 Write timer state-machine functions and `initTimer()`": [
+      {
+        "executionId": "33d63f25-21ae-4406-ad3d-f9cd83dcbde2",
+        "chatSessionId": "sess_dfbf6fe4-2093-49b3-b937-e80c15a6e802",
+        "timestamp": 1795186977302
+      },
+      {
+        "executionId": "33d63f25-21ae-4406-ad3d-f9cd83dcbde2",
+        "chatSessionId": "sess_dfbf6fe4-2093-49b3-b937-e80c15a6e802",
+        "timestamp": 1795187034548
+      }
+    ],
+    "7. Implement the timer module": [
+      {
+        "executionId": "33d63f25-21ae-4406-ad3d-f9cd83dcbde2",
+        "chatSessionId": "sess_dfbf6fe4-2093-49b3-b937-e80c15a6e802",
+        "timestamp": 1795187034680
+      }
+    ],
+    "8.1 Write todo data functions and `todo_persist()` / `todo_load()`": [
+      {
+        "executionId": "5bcf6323-b6be-4a37-8ac6-4dc9ccd5ea99",
+        "chatSessionId": "sess_d537a2c3-0e14-4bd7-ad81-b58c42631ab9",
+        "timestamp": 1795187063162
+      },
+      {
+        "executionId": "5bcf6323-b6be-4a37-8ac6-4dc9ccd5ea99",
+        "chatSessionId": "sess_d537a2c3-0e14-4bd7-ad81-b58c42631ab9",
+        "timestamp": 1795187145154
+      }
+    ],
+    "8.3 Write `todo_add()`, `todo_delete()`, and `todo_toggle()`": [
+      {
+        "executionId": "78c64afe-5ab0-4ce5-b8c3-6626fa5f0a64",
+        "chatSessionId": "sess_afa93de8-5c48-401d-beec-11b1c5075862",
+        "timestamp": 1795187163459
+      },
+      {
+        "executionId": "78c64afe-5ab0-4ce5-b8c3-6626fa5f0a64",
+        "chatSessionId": "sess_afa93de8-5c48-401d-beec-11b1c5075862",
+        "timestamp": 1795187210041
+      }
+    ],
+    "8.5 Write `todo_startEdit()`, `todo_saveEdit()`, and `todo_sort()`": [
+      {
+        "executionId": "5f6cf0e9-906c-470e-8885-a2601b033a18",
+        "chatSessionId": "sess_941928b1-cc5d-4dc7-a619-df8fa53687e4",
+        "timestamp": 1795187224085
+      },
+      {
+        "executionId": "5f6cf0e9-906c-470e-8885-a2601b033a18",
+        "chatSessionId": "sess_941928b1-cc5d-4dc7-a619-df8fa53687e4",
+        "timestamp": 1795187303993
+      }
+    ],
+    "8.7 Write `todo_render()` and `initTodo()`": [
+      {
+        "executionId": "4d513ef1-46cb-4dc7-a52a-9543c1fb1d77",
+        "chatSessionId": "sess_9fb1c44d-6f92-45de-a152-11db9733ebe1",
+        "timestamp": 1795187325155
+      },
+      {
+        "executionId": "0cdb5dcb-cd68-4bd7-964b-356aede0700b",
+        "chatSessionId": "sess_24532cfc-dcd9-4113-b0f9-1cdf7f2a6b90",
+        "timestamp": 1795187445897
+      },
+      {
+        "executionId": "0cdb5dcb-cd68-4bd7-964b-356aede0700b",
+        "chatSessionId": "sess_24532cfc-dcd9-4113-b0f9-1cdf7f2a6b90",
+        "timestamp": 1795187526867
+      }
+    ],
+    "8. Implement the to-do module": [
+      {
+        "executionId": "0cdb5dcb-cd68-4bd7-964b-356aede0700b",
+        "chatSessionId": "sess_24532cfc-dcd9-4113-b0f9-1cdf7f2a6b90",
+        "timestamp": 1795187526980
+      }
+    ],
+    "10.1 Write `links_validateUrl()`, `links_persist()`, and `links_load()`": [
+      {
+        "executionId": "c6e8bbfd-ec88-4d35-9718-3529b6e94dab",
+        "chatSessionId": "sess_396035ba-e6ca-46a1-93bc-79bfa5f96962",
+        "timestamp": 1795187555460
+      },
+      {
+        "executionId": "c6e8bbfd-ec88-4d35-9718-3529b6e94dab",
+        "chatSessionId": "sess_396035ba-e6ca-46a1-93bc-79bfa5f96962",
+        "timestamp": 1795187640865
+      }
+    ],
+    "10.3 Write `links_add()`, `links_delete()`, and `links_render()`": [
+      {
+        "executionId": "f25d2f09-5be8-47cb-9cce-381fd0674686",
+        "chatSessionId": "sess_6a680239-4b02-48c0-aebf-de1f2d61080e",
+        "timestamp": 1795187658679
+      },
+      {
+        "executionId": "f25d2f09-5be8-47cb-9cce-381fd0674686",
+        "chatSessionId": "sess_6a680239-4b02-48c0-aebf-de1f2d61080e",
+        "timestamp": 1795187734157
+      }
+    ],
+    "10. Implement the quick-links module": [
+      {
+        "executionId": "f25d2f09-5be8-47cb-9cce-381fd0674686",
+        "chatSessionId": "sess_6a680239-4b02-48c0-aebf-de1f2d61080e",
+        "timestamp": 1795187734273
+      }
+    ],
+    "11.1 Write the `DOMContentLoaded` initialisation sequence": [
+      {
+        "executionId": "e69f0011-e0b1-4e32-a084-8a16293e9a69",
+        "chatSessionId": "sess_cb7c95ea-de45-4952-9777-6f307ac9304a",
+        "timestamp": 1795187768602
+      },
+      {
+        "executionId": "e69f0011-e0b1-4e32-a084-8a16293e9a69",
+        "chatSessionId": "sess_cb7c95ea-de45-4952-9777-6f307ac9304a",
+        "timestamp": 1795187816476
+      }
+    ],
+    "11. Wire everything together in `js/app.js`": [
+      {
+        "executionId": "e69f0011-e0b1-4e32-a084-8a16293e9a69",
+        "chatSessionId": "sess_cb7c95ea-de45-4952-9777-6f307ac9304a",
+        "timestamp": 1795187816572
+      }
+    ]
+  }
+}
